@@ -43,11 +43,6 @@ except URLError as e:
   stremlite.error()
 
 
-
-#import snowflake.connector
-#my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
-#my_cur.execute("SELECT asape6713, zj99544, zj99544.ca-central-1.aws")
-
 streamlit.header("The fruit load list contains:")
 #Snowflake_related functions
 def get_fruit_load_list():
